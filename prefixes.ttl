@@ -19,6 +19,10 @@
     sh:namespace "http://purl.obolibrary.org/obo/CHEBI_"
     ] ,
     [
+    sh:prefix "PATO" ;
+    sh:namespace "http://purl.obolibrary.org/obo/PATO_"
+    ] ,
+    [
     sh:prefix "UBERON" ;
     sh:namespace "http://purl.obolibrary.org/obo/UBERON_" 
     ]

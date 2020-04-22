@@ -2,4 +2,10 @@
 
 See https://github.com/microbiomedata/nmdc-metadata/issues/59
 
-## TODO: boomer
+Currently we are only running rdfmatch for hypothetical mappings. See [target](target) for results.
+
+We will later run through boomer to give precise results
+
+## TODO
+
+ - sweet

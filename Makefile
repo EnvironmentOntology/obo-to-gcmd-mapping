@@ -17,6 +17,6 @@ target/%.owl:
 
 # TODO: use SSSOM
 target/gcmd-to-%.tsv: target/%.owl
-	rdfmatch -f tsv -l -i prefixes.ttl -i $(GCMD) -i $< -G target/gcmd-to-$*.ttl match > $@.tmp && mv $@.tmp $@
+	rdfmatch --prefix GCMD -f tsv -l -i prefixes.ttl -i $(GCMD) -i $< -G target/gcmd-to-$*.ttl match > $@.tmp && mv $@.tmp $@
 
 # TODO: boomer
