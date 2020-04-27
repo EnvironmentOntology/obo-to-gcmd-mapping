@@ -7,6 +7,10 @@
     sh:namespace "https://gcmdservices.gsfc.nasa.gov/kms/concept/"
     ] ,
     [
+    sh:prefix "SWEET" ; 
+    sh:namespace "http://sweetontology.net/"
+    ] ,
+    [
     sh:prefix "BFO" ; 
     sh:namespace "http://purl.obolibrary.org/obo/BFO_"
     ] ,
